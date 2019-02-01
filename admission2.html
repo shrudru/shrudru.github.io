@@ -1,0 +1,52 @@
+<html>
+<head>
+<style type="text/css">
+.first{
+font-size:50px;
+  color:red;
+  font-family:"Constantia";
+}
+.second{
+  font-family:"Bookman Old Style";
+  color:green;
+}
+.third{
+  font-family:"Bookman Old Style";
+  color:blue;
+  font-size=20px;
+}
+.fourth{
+  font-family:"Bookman Old Style";
+  color:grey;
+}
+</style>
+<title>form program</title>
+</head>
+<body background="C:\Users\intel\Downloads\shru\bg2.jpg">
+<form action="admission3.html">
+<center class="first">
+ADMISSION FORM</center><br><br><br>
+<p class="second">User Name:  <input type="text box" name="user name"><br><br>
+Date of birth:  <input type="date" name="Date"><br><br>
+College:  <input type="text box" name="College"><br><br>
+
+Address:  <input type="address" name="Address"><br><br>
+Mobile number: <input type="number" name="number"></p><br><br>
+<p class="third">
+Qualification:  <input type="radio" name="Qualification" value="PU based" checked>PU based  <input type="radio" name="Qualification" value="Diploma based" checked>Diploma based<br><br>
+Department: <select name="dropdown">
+<option value="Automobile engineering">Automobile engineering
+<option value="Civil engineering">Civil engineering
+<option value="Computer Science and engineering">Computer Science and engineering
+<option value="Electronics and communication engineering">Electronics and communication engineering
+<option value="Electrical and Electronis engineering">Electrical and Electronis engineering
+<option value="Information Science and engineering">Information Science and engineering
+<option value="Industrial Production and engineering">Industrial Production and engineering
+<option value="Mechanical engineering">Mechanical engineering</option value></select><br><br>
+<p id="Accomodation">press the below button if you need accomodation</p>
+<button type="button" onclick='document.getElementById("Accomodation").innerHTML="Thank you,your service will be provided"'>click me</button>
+</p>
+<a href="admission3.html" target="_self">submit<br>
+</form>
+</body>
+</html>
